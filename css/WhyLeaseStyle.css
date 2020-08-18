@@ -26,8 +26,10 @@ h3{
   opacity: 80%;
 }
 .cards{
-  margin: 5% 5% 0% 5%;
+  margin: 5% auto;
   text-align: justify;
+  align-self: center;
+  border-radius: 100px;
 }
 .cards:hover{
   transform: scale(1.05);
@@ -35,7 +37,9 @@ h3{
   filter: contrast(1.5);
 }
 .inset-text {
-    margin: 5%;
+    background-color: #DCDCDC;
+    padding: 2%;
+    margin-bottom: 5%;
     width: 100%;
     border: 10px;
     text-align: center;
@@ -63,9 +67,13 @@ h4 {
   margin: 0 auto;
   background: black;
   color: #f76f09;
-  width:300px;
   padding: 8px;
   text-align: center;
   opacity: 85%;
   filter: contrast(2);
+}
+
+.icon{
+  width: 150px;
+  height: 150px;
 }
