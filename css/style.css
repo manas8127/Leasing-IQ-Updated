@@ -11,6 +11,8 @@ html {
   
   p {
     line-height: 3;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
 h4{
@@ -27,7 +29,7 @@ h4{
 
 header{
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../Images/Background.jpg);
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
 }
@@ -58,7 +60,7 @@ ul li a:hover{
 
 .logo img{
     float: left;
-    height: 70px;
+    height: 50px;
     margin-left: 100px;
     margin-top: 0px;
 }
@@ -79,7 +81,7 @@ ul li a:hover{
 
 .title{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
